@@ -1,0 +1,33 @@
+[
+  {
+    "name": "ampicillin",
+    "mechanism": "cell_wall",
+    "atoms": [
+      {"label": "C1", "atomic_number": 6, "position": [0.0, 0.0, 0.0], "partial_charge": -0.1, "properties": {"h_acceptor": 1}},
+      {"label": "N1", "atomic_number": 7, "position": [1.3, 0.0, 0.0], "partial_charge": -0.2, "properties": {"h_acceptor": 1, "nucleophile": 1}},
+      {"label": "O1", "atomic_number": 8, "position": [-1.1, 0.9, 0.0], "partial_charge": -0.3, "properties": {"h_acceptor": 1}},
+      {"label": "S1", "atomic_number": 16, "position": [0.0, -1.5, 0.0], "partial_charge": -0.05, "properties": {"electrophile": 1}}
+    ]
+  },
+  {
+    "name": "vancomycin",
+    "mechanism": "cell_wall",
+    "atoms": [
+      {"label": "C1", "atomic_number": 6, "position": [0.0, 0.0, 0.0], "partial_charge": -0.05, "properties": {"h_acceptor": 1}},
+      {"label": "O1", "atomic_number": 8, "position": [1.0, 1.2, 0.5], "partial_charge": -0.25, "properties": {"h_acceptor": 1}},
+      {"label": "N1", "atomic_number": 7, "position": [-1.2, 0.5, -0.5], "partial_charge": -0.15, "properties": {"h_donor": 1, "nucleophile": 1}},
+      {"label": "Cl1", "atomic_number": 17, "position": [0.5, -1.3, 0.8], "partial_charge": 0.02, "properties": {"electrophile": 1}}
+    ]
+  },
+  {
+    "name": "ciprofloxacin",
+    "mechanism": "dna_replication",
+    "atoms": [
+      {"label": "C1", "atomic_number": 6, "position": [0.0, 0.0, 0.0], "partial_charge": -0.05, "properties": {"h_acceptor": 1}},
+      {"label": "C2", "atomic_number": 6, "position": [1.4, 0.0, 0.1], "partial_charge": -0.05, "properties": {"h_acceptor": 1}},
+      {"label": "F1", "atomic_number": 9, "position": [2.6, 0.8, 0.0], "partial_charge": -0.1, "properties": {"electrophile": 1}},
+      {"label": "N1", "atomic_number": 7, "position": [-1.2, -0.4, -0.2], "partial_charge": -0.2, "properties": {"h_donor": 1, "nucleophile": 1}},
+      {"label": "O1", "atomic_number": 8, "position": [0.3, 1.5, -0.3], "partial_charge": -0.3, "properties": {"h_acceptor": 1}}
+    ]
+  }
+]
